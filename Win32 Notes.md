@@ -20,6 +20,14 @@
 |TCHAR|`wchar_t`|`char`|
 |`TEXT("x")` or `_T("x")`|`L"x"`|`"x"`|
 
+|Typedef|Definition|
+|---|---|
+|**CHAR**|`char`|
+|**PSTR** or **LPSTR**|`char*`|
+|**PCSTR** or **LPCSTR**|`const char*`|
+|**PWSTR** or **LPWSTR**|`wchar_t*`|
+|**PCWSTR** or **LPCWSTR**|`const wchar_t*`|
+
 |Annotation|Meaning|Who provides the memory?|
 |---|---|---|
 |**[in]**|Input parameter. The function **reads** from it.|**You** (caller)|
