@@ -3,7 +3,7 @@
 x64/
 Debug/
 Release/
-*.vcxproj.user
+*.vcxproj*
 *.suo
 *.sln.cache
 
@@ -16,3 +16,5 @@ Release/
 # Temporary files
 Thumbs.db
 *.tmp
+
+*.slnx
